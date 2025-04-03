@@ -1,0 +1,15 @@
+# python environment config
+python-dotenv==1.0.1
+
+# email processing
+imaplib2==3.6
+secure-smtplib==0.1.1
+
+# network
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# ai processing toolkit
+google-generativeai==0.3.2
+langfuse==2.10.1
+openai==1.13.3

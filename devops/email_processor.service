@@ -1,0 +1,12 @@
+[Unit]
+Description=<add_description_here>
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/home/ec2-user/<your_repo>
+ExecStart=/home/ec2-user/<your_repo>/venv/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
